@@ -1,0 +1,8 @@
+Jan 10 10:21:43 server sshd[1234]: Failed password for root from 192.168.1.50 port 55221 ssh2
+Jan 10 10:22:10 server sshd[1235]: Failed password for admin from 192.168.1.50 port 55222 ssh2
+Jan 10 10:23:01 server sshd[1236]: Failed password for test from 192.168.1.50 port 55223 ssh2
+Jan 10 10:25:44 server sshd[1237]: Accepted password for user from 10.0.0.5 port 55224 ssh2
+Jan 10 10:30:19 server sshd[1238]: Failed password for root from 203.0.113.10 port 55225 ssh2
+Jan 10 10:31:20 server sshd[1239]: Failed password for root from 203.0.113.10 port 55226 ssh2
+Jan 10 10:32:21 server sshd[1240]: Failed password for root from 203.0.113.10 port 55227 ssh2
+Jan 10 10:33:22 server sshd[1241]: Failed password for root from 203.0.113.10 port 55228 ssh2
