@@ -66,3 +66,27 @@ Threat-Detection-Log-Analyzer/
 ## Responsible Use
 
 This project is intended for defensive cybersecurity learning and authorized log analysis only.
+
+## Employer Review
+
+| Area | Evidence |
+| --- | --- |
+| Role relevance | SOC Analyst / Blue Team / Detection Engineering |
+| Main security lesson | Repeated authentication failures can be grouped, scored, and reported for analyst review |
+| Defensive value | Shows log parsing, severity classification, sample logs, and analyst-friendly output |
+| Safe scope | Uses provided sample logs and defensive detection logic only |
+
+## Professional Upgrade Path
+
+- Add time-window correlation so alerts are based on realistic event timing.
+- Add MITRE ATT&CK references for brute-force and valid-account activity.
+- Add unit tests for each detection rule.
+- Export findings to Markdown, JSON, and CSV.
+- Add false-positive notes for shared workstations, service accounts, and misconfigured clients.
+
+## Interview Talking Points
+
+- How raw logs become SOC alerts.
+- Why repeated failures alone are not always malicious.
+- What evidence should be collected before escalation.
+- How this project relates to the newer Splunk and Sentinel labs.
