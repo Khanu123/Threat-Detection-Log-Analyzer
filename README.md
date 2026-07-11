@@ -59,7 +59,7 @@ Threat-Detection-Log-Analyzer/
 
 - Add JSON and HTML report export.
 - Add MITRE ATT&CK mapping.
-- Add unit tests for detection rules.
+- Expand unit tests for detection rules.
 - Support Windows Event Logs and web access logs.
 - Add alert deduplication and time-window correlation.
 
@@ -90,3 +90,15 @@ This project is intended for defensive cybersecurity learning and authorized log
 - Why repeated failures alone are not always malicious.
 - What evidence should be collected before escalation.
 - How this project relates to the newer Splunk and Sentinel labs.
+
+## Current Code Improvements
+
+- Refactored analyzer logic into reusable parsing, severity, alert, and report functions.
+- Added report directory creation.
+- Added unit tests for parsing, alert thresholds, and severity classification.
+
+## Testing
+
+```bash
+python -m unittest discover -v
+```
